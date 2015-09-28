@@ -3,7 +3,7 @@ header {
 	border-top-width: 5px;
 	border-top-color: black;
 }
-body {
+div {
 	border-top-style: solid;
 	border-top-width: 1px;
 	border-top-color: black;
@@ -16,6 +16,8 @@ img {
 	border-width: 1px;
 	border-color: black;
 	padding: 5px;
+	float: right;
+	margin: 10px;
 }
 ul {
 	text-align: center;
