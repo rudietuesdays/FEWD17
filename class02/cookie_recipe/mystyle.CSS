@@ -1,0 +1,19 @@
+body {
+	background-color: #FFE;
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+	padding: 5px;
+}
+a {
+	color: #900;
+}
+h3 {
+	font: arial;
+	color: #887;
+}
+img {
+	border-color: black;
+	border-width: 5px;
+	border-style: solid;
+}
