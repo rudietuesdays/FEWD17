@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: garamond helvetica arial;
+	font-size: 33px;
+	color: darkslategray;
+}
+em {
+	font-style: italic;
+	color: darkred;
+}
+blockquote {
+	font-style: italic;
+	color: darkcyan;
+	border-left: solid 5px #ccc;
+	padding-left: 15px;
+}
+blockquote em {
+	font-style: normal;
+	color: darkgoldenrod;
+}

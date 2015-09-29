@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	background-color: darkmagenta;
+}
+h1 {
+	background-color: red;
+	padding: 10px;
+	border: 2px solid black;
+	width: 50%;
+}
+h2 {
+	background-color: antiquewhite;
+	padding: 10px;
+	border: thick dotted white;
+}
+p {
+	background-color: blue;
+	color: white;
+	padding: 20px;
+	border: 5px solid black;
+}
+code {
+	background-color: white;
+	color: black;
+	padding: 2px;
+	border: thin dashed orange;
+}
+ol {
+	color: fuchsia;
+	background-color: lime;
+	border: 10px dashed teal;
+	width: 25%;
+	margin: 10px 30px 10px 30px;
+}
+li {
+	padding: 5px 10px 5px 10px;
+}
