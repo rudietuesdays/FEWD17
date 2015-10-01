@@ -18,7 +18,7 @@
 - use html w element selectors first, then classes, then IDs
 - CSS written further down the page will overwrite CSS above
 - IDs trump classes trump selectors
-- one way to break down html: */
+- one way to break down css: */
 
 	/***************
 	1. utility class
@@ -28,4 +28,19 @@
 	/***********************
 		base styles
 	***********************/
+/*
+- MUST have widths along with floats
+-docs don't see floats unless you add a 'clear' -- otherwise things will overlap and shit looks broke:
+	.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+		or
+	.clear {
+  overflow: auto;
+}
+*/
+
+
 
