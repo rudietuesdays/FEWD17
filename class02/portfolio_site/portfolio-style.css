@@ -8,11 +8,10 @@ nav ul {
 
 nav li {
 	display: inline;
-	text-decoration: underline;
 }
 
-nav li:last-child {
-	font-style: italic;
+nav li:first-child {
+	text-decoration: underline;
 	font-weight: bold;
 }
 
@@ -27,18 +26,22 @@ p {
 
 h3 {
 	letter-spacing: 1.5px;
+	font-size: 16px;
 }
 
-h4 {
-	font-weight: normal;
-}
 em {
 	font-style: italic;
 	font-weight: bold;
 }
 
+span {
+	font-family: garamond;
+	font-size: 18px;
+}
+
 img {
 	border: solid black 1px;
+	padding: 5px;
 	margin-left: 30%;
 	margin-right: 30%;
 }
