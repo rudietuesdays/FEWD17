@@ -1,0 +1,47 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li:first-child {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	font-family: garamond;
+	font-size: 18px;
+}
+
+h3 {
+	letter-spacing: 1.5px;
+	font-size: 16px;
+}
+
+em {
+	font-style: italic;
+	font-weight: bold;
+}
+
+span {
+	font-family: garamond;
+	font-size: 18px;
+}
+
+img {
+	border: solid black 1px;
+	padding: 5px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
