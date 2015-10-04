@@ -50,8 +50,6 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
 }
 
 
@@ -64,21 +62,122 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
-
+  float: left;
 }
 
 header {
-
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+      color: white;
+      padding: 20px 50px 300px;
 }
 
 footer {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+}
 
+.centerButtons {
+    position:relative;
+    text-align: center;
+} 
+
+.nav_button{
+    height:34px;
+    margin-right:10px;
+    float: left;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.relaxr {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+header h2 {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  padding: 50px;
+}
+
+header button {
+  color: #121212;
+  background-color: #f9e42e;
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 5px 40px;
+}
 
 
+.benefits {
+  background-color: #f0efef;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 40px 50px;
+}
 
+section.benefits h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+section.benefits ul {
+  list-style-type: disc;
+  padding: 20px 40px;
+  margin: 5px;
+}
+
+section.benefits li {
+  line-height: 1.5em;
+}
+
+blockquote {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  background: url(../images/testimonial_bg.jpg);
+  padding: 50px 0px;
+}
+
+em {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.signUp {
+  background-color: #f9e42e;
+  padding: 20px;
+}
+
+section.signUp button {
+  font-weight: 800;
+  font-size: 12px; 
+  border-radius: 5px;
+  background-color: #033048;
+  color: white;
+  padding: 5px 40px;
+}
+
+footer h1 {
+  color: #f9e42e;
+  text-align: center;
+}
+
+.smallImg img {
+  max-width: 25%;
+  height: auto;
+  padding: 20px;
+}
+
+footer small {
+  font-size: 9px;
+  font-weight: 600;
+}
