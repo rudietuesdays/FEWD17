@@ -1,0 +1,44 @@
+/*************
+*  Utility
+**************/
+
+/* Box Sizing */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+/* Clear Class */
+.clear{
+	overflow: auto;
+}
+
+/* Clearfix */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/*************
+*  Base
+**************/
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/*************
+* Layout
+**************/
+
+
+/*************
+* Navigation
+**************/

@@ -1,0 +1,4 @@
+/*
+- inline elements DO NOT float
+	- an inline element that needs to be floated will have to be changed
+- if an element is going to be entire width of page, it likely doesn't need to be floated
