@@ -1,0 +1,207 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* FONTS
+/*******************************************/
+
+/*
+     font-family: 'Source Sans Pro', sans-serif;
+     font-family: 'Merriweather', serif;
+     font-family: 'Oswald', sans-serif;
+*/
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+#container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+     background: black;
+     border-bottom: solid yellow 5px;
+     padding-bottom: 30px;
+}
+
+h1 {
+     color: yellow;
+     font-family: 'Merriweather', serif;
+     font-weight: 700;
+     padding: 20px;
+     width: 60%;
+     margin: 5px;
+}
+
+header nav {
+     float: right;
+     margin-top: -30px;
+     padding: 0 40px 0 0;
+     width: 70%;
+}
+
+header li {
+     float: left;
+     font-family: 'Source Sans Pro', sans-serif;
+     padding: 10px;
+}
+
+header li, header a {
+     color: lightgray;
+     text-decoration: none;
+}
+
+.specialNav {
+     font-family: 'Oswald', sans-serif;
+     color: white;
+     text-transform: uppercase;
+     line-height: 1.4;
+}
+
+h2 {
+     clear: both;
+     background-color: lightgray;
+     font-family: 'Merriweather', serif;
+     font-style: italic;
+     font-weight: 700;
+     text-align: center;
+     padding: 30px;
+     margin: auto;
+}
+
+.taste {
+     text-decoration: line-through;
+     color: gray;
+}
+
+.are {
+     text-decoration: underline;
+}
+
+.mainArticle {
+     background: url(../images/coworking.jpg);
+     width: 100%;
+     margin: auto;
+}
+
+.alignRight {
+     float: right;
+     max-width: 35%;
+     background: rgba(255,255,255,.6);
+     padding: 10px;
+     margin: 20px;
+     box-shadow: 0 1px 2px #fff,
+          0 -1px 1px #666,
+          inset 0 -1px 1px rgba(0,0,0,0.5), 
+          inset 0 1px 1px rgba(255,255,255,0.8); 
+}
+
+h3 {
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 40px;
+     padding: 5px 15px;
+     margin: 5px 10px;
+}
+
+.alignRight p {
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 20px;
+     padding: 5px 15px 15px 15px;
+     line-height: 1.4;
+     margin: 5px;
+}
+
+.createProfile {
+     text-align: center;
+     background: yellow;
+     border: solid yellow;
+     border-radius: 5px;
+     margin: 15px;
+     padding: 15px;
+}
+
+.button a {
+     font-family: 'Oswald', sans-serif;
+     text-transform: uppercase;
+     color: black;
+     text-decoration: none;
+}
+
+.linkOptions {
+     clear: both;
+     padding: 10px;
+}
+
+.linkOps {
+     float: left;
+     width: 33.333333%;
+     margin-top: 10px;
+     padding: 0 15px;
+}
+
+h4 {
+     font-family: 'Merriweather', serif;
+     font-size: 24px;
+     margin: auto;
+     padding-bottom: 10px;
+}
+
+.linkOps p {
+     font-family: 'Source Sans Pro', sans-serif;
+     margin: auto;
+     line-height: 1.4em;
+}
+
+.borders {
+     border-left: solid lightgray 2px;
+     border-right:  solid lightgray 2px;
+     margin-bottom: 10px;
+}
+
+footer {
+     clear: both;
+     font-family: 'Source Sans Pro', sans-serif;
+     margin-top: 10px;
+     background: black;
+     color: white;
+     font-weight: 700;
+     padding: 10px 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* QUESTIONS
+- how to make nav items not wrap when shrinking the page?
+*/
+
+

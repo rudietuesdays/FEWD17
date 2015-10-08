@@ -82,6 +82,12 @@ footer {
 .centerButtons {
     position:relative;
     text-align: center;
+    /*
+    Alternatively, could use
+    display: block;
+    margin: 0 auto; 
+    text-align: center;
+    */
 } 
 
 .nav_button{
@@ -144,6 +150,7 @@ blockquote {
   text-align: center;
   color: white;
   background: url(../images/testimonial_bg.jpg);
+  background-attachment: fixed;
   padding: 50px 0px;
 }
 
