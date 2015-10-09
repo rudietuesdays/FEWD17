@@ -131,7 +131,7 @@ h3 {
      margin: 5px 10px;
 }
 
-.alignRight p {
+.introText {
      font-family: 'Source Sans Pro', sans-serif;
      font-size: 20px;
      padding: 5px 15px 15px 15px;
@@ -145,7 +145,7 @@ h3 {
      border-bottom: solid darkkhaki;
      border-radius: 5px;
      margin: 15px;
-     padding: 15px;
+     padding: 10px 15px;
 }
 
 .button a {
@@ -153,6 +153,7 @@ h3 {
      text-transform: uppercase;
      color: black;
      text-decoration: none;
+     margin: 5px;
 }
 
 .linkOptions {
