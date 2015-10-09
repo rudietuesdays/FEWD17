@@ -79,6 +79,7 @@ section.alignleft {
 
 footer {
   clear: both;
+  background: #121212;
 }
 
 /******************************************
@@ -171,10 +172,51 @@ h3 {
   color: #000;
 }
 
+.signUpButton {
+  background: #f9e42e;
+  padding: 40px;
+  text-align: center;
+}
+
+.signUpButton a {
+  background: #033048;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 10px 50px;
+  font-size: 18px;
+}
+
+.relaxrFooter {
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.imgsFooter {
+  text-align: center;
+}
+
+.imgsFooter img {
+  padding: 0 20px;
+
+}
+
+.copyright {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+small {
+  color: white;
+}
+
 /*
 
 Questions
-- why are <br /> bad?
 - how come text-align doesn't work for my <a> elements?
 
 */
