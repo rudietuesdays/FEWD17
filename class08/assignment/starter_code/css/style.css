@@ -67,7 +67,7 @@ a {
 
 /* Center the container */
 .container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 .logo {
@@ -361,6 +361,12 @@ footer p {
     margin-bottom: 5px;
     font-size: 1.5em;
     padding-top: 20px;
+    float: left;
+  }
+
+  footer ul {
+    width: 20%;
+    float: left;
   }
 
   footer ul li {
@@ -370,6 +376,46 @@ footer p {
 
   .copyright {
     padding: 30px 0;
+    text-align: right;
+  }
+
+  .main {
+    margin-top: 10px;
+  }
+
+  .posts {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+
+  .post {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .post h2 {
+    padding-left: 10px;
+  }
+
+  .post img {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    height: 200px;
+  }
+
+  .post p {
+    padding-left: 10px;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .sidebar p a {
+    text-align: right;
   }
 
 }
