@@ -7,7 +7,8 @@ $(document).ready(function() {
 	}
 
 	function illuminateStopLightRed() {
-		clearLights();
+		//clearLights();
+		$('.bulb').css('backgroundColor', 'black');
 		$('#stopLight').css('backgroundColor', 'red');
 	}
 
@@ -22,7 +23,7 @@ $(document).ready(function() {
 	}
 
 	$('#stopButton').click(illuminateStopLightRed);
-	//hquery the document for the ID stopButton, listen for a click, and follow the task of this variable
+	//query the document for the ID stopButton, listen for a click, and follow the task of this variable
 
 	$('#slowButton').click(illuminateSlowLightYellow);
 	$('#goButton').click(illuminateGoLightGreen);
