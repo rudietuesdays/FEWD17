@@ -33,12 +33,14 @@ Developer @GA in NYC
 
 .alignright {
 	float: right;
-	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+	/* padding: 0 0 10px 10px;
+     note the padding around a right floated image */
 }
 
 .alignleft {
 	float: left;
-	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+	/* padding: 0 10px 10px 0; 
+     note the padding around a left floated image */
 }
 
 /******************************************
@@ -57,7 +59,7 @@ body {
 
 /* Center the container */
 #container {
-     width: 960px;
+     width: 100%;
      margin: auto;
   padding-top: 5em;
 }
@@ -71,7 +73,7 @@ header {
 
 h1 {
      width: 60%;
-     padding-bottom: 20px;
+     padding: 0 0 20px 10px;
 }
 
 header nav {
