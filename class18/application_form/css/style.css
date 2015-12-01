@@ -33,12 +33,10 @@ Developer @GA in NYC
 
 .alignright {
   float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
 
 .alignleft {
   float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
 /******************************************
@@ -82,17 +80,11 @@ input[name="firstName"] {
   font-size: 1em;
 }
 
-input[address1] {
-  float: left;
-}
 
-input[address2] {
-  clear: both;
-}
 
 .fieldWrap {
   float: left;
-  width: 60%;
+  width: 80%;
 }
 
 /******************************************
