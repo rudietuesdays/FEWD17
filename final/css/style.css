@@ -78,7 +78,8 @@ header {
 
 h1 {
      width: 60%;
-     padding: 0 0 20px 10px;
+     padding-left: 20px;
+     margin: 0;
 }
 
 a {
@@ -96,7 +97,7 @@ header nav {
 
 header ul {
      display: inline;
-     padding: 30px 40px;
+     padding: 0 40px 0 20px;
 
 }
 
